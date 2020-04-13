@@ -56,9 +56,8 @@
 			children = (
 				11494AF32444BFF600D14261 /* Info.plist */,
 				11494B002444C70000D14261 /* Scene+AppDelegate */,
+				11494B042444C9FE00D14261 /* Resources */,
 				11494B012444C71000D14261 /* ViewControllers */,
-				11494AEE2444BFF600D14261 /* Assets.xcassets */,
-				11494AF02444BFF600D14261 /* LaunchScreen.storyboard */,
 			);
 			path = ActiMex;
 			sourceTree = "<group>";
@@ -68,6 +67,7 @@
 			children = (
 				11494AE52444BFF000D14261 /* AppDelegate.swift */,
 				11494AE72444BFF000D14261 /* SceneDelegate.swift */,
+				11494AF02444BFF600D14261 /* LaunchScreen.storyboard */,
 			);
 			path = "Scene+AppDelegate";
 			sourceTree = "<group>";
@@ -78,6 +78,14 @@
 				11494B022444C76D00D14261 /* MainViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		11494B042444C9FE00D14261 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11494AEE2444BFF600D14261 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -13,8 +13,12 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.view.backgroundColor = .red
+        
+        setupLoadFunctions()
     }
     
+    func setupLoadFunctions(){
+        self.view.backgroundColor = .red
+    }
     
 }
