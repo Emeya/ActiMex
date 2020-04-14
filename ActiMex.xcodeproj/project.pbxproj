@@ -12,6 +12,30 @@
 		11494AEF2444BFF600D14261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11494AEE2444BFF600D14261 /* Assets.xcassets */; };
 		11494AF22444BFF600D14261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11494AF02444BFF600D14261 /* LaunchScreen.storyboard */; };
 		11494B032444C76D00D14261 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B022444C76D00D14261 /* MainViewController.swift */; };
+		11494B082444D08A00D14261 /* MainUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B072444D08A00D14261 /* MainUserView.swift */; };
+		11494B0A2444D0E200D14261 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11494B092444D0E200D14261 /* Colors.xcassets */; };
+		11494B112444D19200D14261 /* DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B0C2444D19100D14261 /* DarkMode.swift */; };
+		11494B122444D19200D14261 /* Baskerville.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 11494B0D2444D19100D14261 /* Baskerville.ttc */; };
+		11494B132444D19200D14261 /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B0E2444D19200D14261 /* ThemeProtocol.swift */; };
+		11494B142444D19200D14261 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B0F2444D19200D14261 /* Theme.swift */; };
+		11494B152444D19200D14261 /* LightMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B102444D19200D14261 /* LightMode.swift */; };
+		11494B1A2444D40C00D14261 /* Champagne & Limousines Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11494B162444D40B00D14261 /* Champagne & Limousines Bold.ttf */; };
+		11494B1B2444D40C00D14261 /* Champagne & Limousines Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11494B172444D40C00D14261 /* Champagne & Limousines Italic.ttf */; };
+		11494B1C2444D40C00D14261 /* Champagne & Limousines Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11494B182444D40C00D14261 /* Champagne & Limousines Bold Italic.ttf */; };
+		11494B1D2444D40C00D14261 /* Champagne & Limousines.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11494B192444D40C00D14261 /* Champagne & Limousines.ttf */; };
+		11494B212445045E00D14261 /* MainView+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B202445045E00D14261 /* MainView+TableView.swift */; };
+		11494B232445051900D14261 /* LoginHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B222445051900D14261 /* LoginHeader.swift */; };
+		11494B262445130500D14261 /* SignUprViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B252445130500D14261 /* SignUprViewController.swift */; };
+		11494B282445135300D14261 /* SignUpView+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B272445135300D14261 /* SignUpView+TableView.swift */; };
+		11494B2D244566E000D14261 /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B2C244566E000D14261 /* MainTabBarView.swift */; };
+		11494B31244585B000D14261 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B30244585B000D14261 /* Extensions.swift */; };
+		11494B362445898E00D14261 /* MainUserViewNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B352445898E00D14261 /* MainUserViewNav.swift */; };
+		11494B38244589EA00D14261 /* CategoriesNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B37244589EA00D14261 /* CategoriesNavView.swift */; };
+		11494B3A24458A0C00D14261 /* ShopCarNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B3924458A0C00D14261 /* ShopCarNavView.swift */; };
+		11494B3C24458A2100D14261 /* SettingsNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B3B24458A2100D14261 /* SettingsNavView.swift */; };
+		11494B3E24458A4700D14261 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B3D24458A4700D14261 /* CategoriesView.swift */; };
+		11494B4024458A6600D14261 /* ShopCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B3F24458A6600D14261 /* ShopCarView.swift */; };
+		11494B4224458A7900D14261 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11494B4124458A7900D14261 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +46,30 @@
 		11494AF12444BFF600D14261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11494AF32444BFF600D14261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11494B022444C76D00D14261 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		11494B072444D08A00D14261 /* MainUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUserView.swift; sourceTree = "<group>"; };
+		11494B092444D0E200D14261 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		11494B0C2444D19100D14261 /* DarkMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkMode.swift; sourceTree = "<group>"; };
+		11494B0D2444D19100D14261 /* Baskerville.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Baskerville.ttc; sourceTree = "<group>"; };
+		11494B0E2444D19200D14261 /* ThemeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
+		11494B0F2444D19200D14261 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		11494B102444D19200D14261 /* LightMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightMode.swift; sourceTree = "<group>"; };
+		11494B162444D40B00D14261 /* Champagne & Limousines Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Champagne & Limousines Bold.ttf"; sourceTree = "<group>"; };
+		11494B172444D40C00D14261 /* Champagne & Limousines Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Champagne & Limousines Italic.ttf"; sourceTree = "<group>"; };
+		11494B182444D40C00D14261 /* Champagne & Limousines Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Champagne & Limousines Bold Italic.ttf"; sourceTree = "<group>"; };
+		11494B192444D40C00D14261 /* Champagne & Limousines.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Champagne & Limousines.ttf"; sourceTree = "<group>"; };
+		11494B202445045E00D14261 /* MainView+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainView+TableView.swift"; sourceTree = "<group>"; };
+		11494B222445051900D14261 /* LoginHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeader.swift; sourceTree = "<group>"; };
+		11494B252445130500D14261 /* SignUprViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUprViewController.swift; sourceTree = "<group>"; };
+		11494B272445135300D14261 /* SignUpView+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUpView+TableView.swift"; sourceTree = "<group>"; };
+		11494B2C244566E000D14261 /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
+		11494B30244585B000D14261 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		11494B352445898E00D14261 /* MainUserViewNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUserViewNav.swift; sourceTree = "<group>"; };
+		11494B37244589EA00D14261 /* CategoriesNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesNavView.swift; sourceTree = "<group>"; };
+		11494B3924458A0C00D14261 /* ShopCarNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCarNavView.swift; sourceTree = "<group>"; };
+		11494B3B24458A2100D14261 /* SettingsNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsNavView.swift; sourceTree = "<group>"; };
+		11494B3D24458A4700D14261 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		11494B3F24458A6600D14261 /* ShopCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCarView.swift; sourceTree = "<group>"; };
+		11494B4124458A7900D14261 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +102,7 @@
 		11494AE42444BFF000D14261 /* ActiMex */ = {
 			isa = PBXGroup;
 			children = (
+				11494B2F2445859D00D14261 /* Code Extensions */,
 				11494AF32444BFF600D14261 /* Info.plist */,
 				11494B002444C70000D14261 /* Scene+AppDelegate */,
 				11494B042444C9FE00D14261 /* Resources */,
@@ -75,7 +124,8 @@
 		11494B012444C71000D14261 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				11494B022444C76D00D14261 /* MainViewController.swift */,
+				11494B052444D05600D14261 /* MainLoginSignUp */,
+				11494B062444D06200D14261 /* Main User View */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -83,9 +133,135 @@
 		11494B042444C9FE00D14261 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				11494B0B2444D14200D14261 /* Themes */,
 				11494AEE2444BFF600D14261 /* Assets.xcassets */,
+				11494B092444D0E200D14261 /* Colors.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		11494B052444D05600D14261 /* MainLoginSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				11494B292445668F00D14261 /* Login */,
+				11494B24244512D300D14261 /* Register */,
+			);
+			path = MainLoginSignUp;
+			sourceTree = "<group>";
+		};
+		11494B062444D06200D14261 /* Main User View */ = {
+			isa = PBXGroup;
+			children = (
+				11494B2A244566AC00D14261 /* Tab bar */,
+				11494B2B244566B100D14261 /* Main User view */,
+				11494B32244588EB00D14261 /* Categories view */,
+				11494B33244588F100D14261 /* Shop Car View */,
+				11494B34244588FA00D14261 /* Settings View */,
+			);
+			path = "Main User View";
+			sourceTree = "<group>";
+		};
+		11494B0B2444D14200D14261 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				11494B1F2444D54400D14261 /* ThemeFiles */,
+				11494B1E2444D53200D14261 /* Fonts */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		11494B1E2444D53200D14261 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				11494B182444D40C00D14261 /* Champagne & Limousines Bold Italic.ttf */,
+				11494B162444D40B00D14261 /* Champagne & Limousines Bold.ttf */,
+				11494B172444D40C00D14261 /* Champagne & Limousines Italic.ttf */,
+				11494B192444D40C00D14261 /* Champagne & Limousines.ttf */,
+				11494B0D2444D19100D14261 /* Baskerville.ttc */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		11494B1F2444D54400D14261 /* ThemeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				11494B0C2444D19100D14261 /* DarkMode.swift */,
+				11494B102444D19200D14261 /* LightMode.swift */,
+				11494B0F2444D19200D14261 /* Theme.swift */,
+				11494B0E2444D19200D14261 /* ThemeProtocol.swift */,
+			);
+			path = ThemeFiles;
+			sourceTree = "<group>";
+		};
+		11494B24244512D300D14261 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				11494B252445130500D14261 /* SignUprViewController.swift */,
+				11494B272445135300D14261 /* SignUpView+TableView.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		11494B292445668F00D14261 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				11494B022444C76D00D14261 /* MainViewController.swift */,
+				11494B202445045E00D14261 /* MainView+TableView.swift */,
+				11494B222445051900D14261 /* LoginHeader.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		11494B2A244566AC00D14261 /* Tab bar */ = {
+			isa = PBXGroup;
+			children = (
+				11494B2C244566E000D14261 /* MainTabBarView.swift */,
+			);
+			path = "Tab bar";
+			sourceTree = "<group>";
+		};
+		11494B2B244566B100D14261 /* Main User view */ = {
+			isa = PBXGroup;
+			children = (
+				11494B072444D08A00D14261 /* MainUserView.swift */,
+				11494B352445898E00D14261 /* MainUserViewNav.swift */,
+			);
+			path = "Main User view";
+			sourceTree = "<group>";
+		};
+		11494B2F2445859D00D14261 /* Code Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				11494B30244585B000D14261 /* Extensions.swift */,
+			);
+			path = "Code Extensions";
+			sourceTree = "<group>";
+		};
+		11494B32244588EB00D14261 /* Categories view */ = {
+			isa = PBXGroup;
+			children = (
+				11494B3D24458A4700D14261 /* CategoriesView.swift */,
+				11494B37244589EA00D14261 /* CategoriesNavView.swift */,
+			);
+			path = "Categories view";
+			sourceTree = "<group>";
+		};
+		11494B33244588F100D14261 /* Shop Car View */ = {
+			isa = PBXGroup;
+			children = (
+				11494B3F24458A6600D14261 /* ShopCarView.swift */,
+				11494B3924458A0C00D14261 /* ShopCarNavView.swift */,
+			);
+			path = "Shop Car View";
+			sourceTree = "<group>";
+		};
+		11494B34244588FA00D14261 /* Settings View */ = {
+			isa = PBXGroup;
+			children = (
+				11494B4124458A7900D14261 /* SettingsView.swift */,
+				11494B3B24458A2100D14261 /* SettingsNavView.swift */,
+			);
+			path = "Settings View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +322,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11494B1D2444D40C00D14261 /* Champagne & Limousines.ttf in Resources */,
+				11494B1A2444D40C00D14261 /* Champagne & Limousines Bold.ttf in Resources */,
+				11494B1B2444D40C00D14261 /* Champagne & Limousines Italic.ttf in Resources */,
+				11494B122444D19200D14261 /* Baskerville.ttc in Resources */,
+				11494B1C2444D40C00D14261 /* Champagne & Limousines Bold Italic.ttf in Resources */,
+				11494B0A2444D0E200D14261 /* Colors.xcassets in Resources */,
 				11494AF22444BFF600D14261 /* LaunchScreen.storyboard in Resources */,
 				11494AEF2444BFF600D14261 /* Assets.xcassets in Resources */,
 			);
@@ -158,9 +340,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11494B4224458A7900D14261 /* SettingsView.swift in Sources */,
+				11494B082444D08A00D14261 /* MainUserView.swift in Sources */,
+				11494B362445898E00D14261 /* MainUserViewNav.swift in Sources */,
+				11494B112444D19200D14261 /* DarkMode.swift in Sources */,
+				11494B3A24458A0C00D14261 /* ShopCarNavView.swift in Sources */,
 				11494B032444C76D00D14261 /* MainViewController.swift in Sources */,
+				11494B132444D19200D14261 /* ThemeProtocol.swift in Sources */,
+				11494B282445135300D14261 /* SignUpView+TableView.swift in Sources */,
+				11494B4024458A6600D14261 /* ShopCarView.swift in Sources */,
+				11494B3E24458A4700D14261 /* CategoriesView.swift in Sources */,
 				11494AE62444BFF000D14261 /* AppDelegate.swift in Sources */,
 				11494AE82444BFF000D14261 /* SceneDelegate.swift in Sources */,
+				11494B3C24458A2100D14261 /* SettingsNavView.swift in Sources */,
+				11494B38244589EA00D14261 /* CategoriesNavView.swift in Sources */,
+				11494B142444D19200D14261 /* Theme.swift in Sources */,
+				11494B212445045E00D14261 /* MainView+TableView.swift in Sources */,
+				11494B232445051900D14261 /* LoginHeader.swift in Sources */,
+				11494B2D244566E000D14261 /* MainTabBarView.swift in Sources */,
+				11494B262445130500D14261 /* SignUprViewController.swift in Sources */,
+				11494B152444D19200D14261 /* LightMode.swift in Sources */,
+				11494B31244585B000D14261 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
