@@ -44,6 +44,7 @@ class MainTabBarView: UITabBarController {
             settingsNavView.tabBarItem = releasesViewItem
             
             let mainUserView = MainUserView()
+//            let mainUserView = ProductListCVView()
             let categoriesView = CategoriesView()
             let shopCarView = ShopCarView()
             let settingsView = SettingsView()
